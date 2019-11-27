@@ -5,7 +5,7 @@ Created on Tue Nov 26 19:16:15 2019
 @author: Anas
 """
 import cv2
-
+#haarcascade_phone.xml taken from https://github.com/Honda18/Phone-Face-EyeClassifier
 phone_cascade = cv2.CascadeClassifier('haarcascade_phone.xml')
 
 def detect(gray, frame):
